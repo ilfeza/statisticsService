@@ -38,6 +38,12 @@ curl -X 'GET' 'http://127.0.0.1:8000/devices/1/status/?start_time=2023-01-01T00:
 
 Запуск программы
 
-```git clone https://github.com/ilfeza/statisticsService``` <br/>
-```cd statisticsService``` <br/>
-```docker-compose up --build```
+```
+git clone https://github.com/ilfeza/statisticsService
+``` 
+```
+cd statisticsService
+``` 
+```
+docker-compose up --build
+```
