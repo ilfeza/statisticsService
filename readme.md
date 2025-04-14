@@ -47,3 +47,7 @@ cd statisticsService
 ```
 docker-compose up --build
 ```
+
+### Результат тестирования
+
+![img.png](img.png)

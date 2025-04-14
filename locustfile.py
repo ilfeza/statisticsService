@@ -28,4 +28,4 @@ class DeviceMeasureUser(HttpUser):
     @task(1)
     def get_stats(self):
         # Параметры start_time и end_time опциональны — можно не указывать
-        self.client.get(f"/devices/{self.device_id}/stats/")
+        self.client.get(f"/devices/{self.device_id}/status/")
